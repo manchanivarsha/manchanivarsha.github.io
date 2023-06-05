@@ -24,6 +24,6 @@ let flipdata= function(){
     }
     document.getElementById("img-dhoni").src=displayobject.imgurl;
     document.getElementById("name-dhoni").innerHTML=displayobject.name;
-    document.getElementById("des-dhoni").inner.HTML=displayobject.Description;
+    document.getElementById("des-dhoni").innerHTML=displayobject.Description;
 
 }
