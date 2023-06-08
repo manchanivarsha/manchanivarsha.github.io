@@ -1,5 +1,5 @@
 let dhonioldinfo={
-    imgurl: "C:\Users\DELL\OneDrive\Pictures\ms.jpg",
+    imgurl: "https://resize.indiatvnews.com/en/resize/newbucket/730_-/2016/09/ms-dhoni-1474525188.jpg",
     name: "Dhoni",
     Description: "Railways TC"}
 let dhoniyounginfo={
