@@ -3,12 +3,15 @@ let dhonioldinfo={
     name: "Dhoni",
     Description: "Railways TC"
 }
-let displayobject;
+let displayobject={
+  name:"",imgurl:"",Description:""
+};
 let getRandomUser= function(){
   fetch("https://randomuser.me/api")
   .then(response =>response.json())
   .then(data=>{
-    displayobject.name=data.results[0].name.first+" "+data.results[0].name.last
+    // displayobject.name=data.results[0].name.first+" "+data.results[0].name.last
+    
     displayobject.imgurl=data.results[0].picture.large
     displayobject.Description=data.results[0].gender
     document.getElementById("img-dhoni").src=displayobject.imgurl;
